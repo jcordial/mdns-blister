@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'mDNS Blister' target in the 'mDNS Blister' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

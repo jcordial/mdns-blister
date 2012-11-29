@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818A70A91667E1D7004D3487 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A70A81667E1D7004D3487 /* Cocoa.framework */; };
+		818A70B31667E1D7004D3487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 818A70B11667E1D7004D3487 /* InfoPlist.strings */; };
+		818A70B51667E1D7004D3487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A70B41667E1D7004D3487 /* main.m */; };
+		818A70B91667E1D7004D3487 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 818A70B71667E1D7004D3487 /* Credits.rtf */; };
+		818A70BC1667E1D7004D3487 /* OSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A70BB1667E1D7004D3487 /* OSDAppDelegate.m */; };
+		818A70BF1667E1D7004D3487 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818A70BD1667E1D7004D3487 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		818A70A41667E1D7004D3487 /* mDNS Blister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mDNS Blister.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		818A70A81667E1D7004D3487 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		818A70AB1667E1D7004D3487 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		818A70AC1667E1D7004D3487 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		818A70AD1667E1D7004D3487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		818A70B01667E1D7004D3487 /* mDNS Blister-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mDNS Blister-Info.plist"; sourceTree = "<group>"; };
+		818A70B21667E1D7004D3487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		818A70B41667E1D7004D3487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		818A70B61667E1D7004D3487 /* mDNS Blister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mDNS Blister-Prefix.pch"; sourceTree = "<group>"; };
+		818A70B81667E1D7004D3487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		818A70BA1667E1D7004D3487 /* OSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSDAppDelegate.h; sourceTree = "<group>"; };
+		818A70BB1667E1D7004D3487 /* OSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSDAppDelegate.m; sourceTree = "<group>"; };
+		818A70BE1667E1D7004D3487 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818A70A11667E1D7004D3487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A70A91667E1D7004D3487 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818A70991667E1D7004D3487 = {
+			isa = PBXGroup;
+			children = (
+				818A70AE1667E1D7004D3487 /* mDNS Blister */,
+				818A70A71667E1D7004D3487 /* Frameworks */,
+				818A70A51667E1D7004D3487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818A70A51667E1D7004D3487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818A70A41667E1D7004D3487 /* mDNS Blister.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818A70A71667E1D7004D3487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818A70A81667E1D7004D3487 /* Cocoa.framework */,
+				818A70AA1667E1D7004D3487 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		818A70AA1667E1D7004D3487 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818A70AB1667E1D7004D3487 /* AppKit.framework */,
+				818A70AC1667E1D7004D3487 /* CoreData.framework */,
+				818A70AD1667E1D7004D3487 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		818A70AE1667E1D7004D3487 /* mDNS Blister */ = {
+			isa = PBXGroup;
+			children = (
+				818A70BA1667E1D7004D3487 /* OSDAppDelegate.h */,
+				818A70BB1667E1D7004D3487 /* OSDAppDelegate.m */,
+				818A70BD1667E1D7004D3487 /* MainMenu.xib */,
+				818A70AF1667E1D7004D3487 /* Supporting Files */,
+			);
+			path = "mDNS Blister";
+			sourceTree = "<group>";
+		};
+		818A70AF1667E1D7004D3487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				818A70B01667E1D7004D3487 /* mDNS Blister-Info.plist */,
+				818A70B11667E1D7004D3487 /* InfoPlist.strings */,
+				818A70B41667E1D7004D3487 /* main.m */,
+				818A70B61667E1D7004D3487 /* mDNS Blister-Prefix.pch */,
+				818A70B71667E1D7004D3487 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818A70A31667E1D7004D3487 /* mDNS Blister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818A70C21667E1D7004D3487 /* Build configuration list for PBXNativeTarget "mDNS Blister" */;
+			buildPhases = (
+				818A70A01667E1D7004D3487 /* Sources */,
+				818A70A11667E1D7004D3487 /* Frameworks */,
+				818A70A21667E1D7004D3487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mDNS Blister";
+			productName = "mDNS Blister";
+			productReference = 818A70A41667E1D7004D3487 /* mDNS Blister.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818A709B1667E1D7004D3487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OSD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jason Cordial";
+			};
+			buildConfigurationList = 818A709E1667E1D7004D3487 /* Build configuration list for PBXProject "mDNS Blister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 818A70991667E1D7004D3487;
+			productRefGroup = 818A70A51667E1D7004D3487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818A70A31667E1D7004D3487 /* mDNS Blister */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818A70A21667E1D7004D3487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A70B31667E1D7004D3487 /* InfoPlist.strings in Resources */,
+				818A70B91667E1D7004D3487 /* Credits.rtf in Resources */,
+				818A70BF1667E1D7004D3487 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818A70A01667E1D7004D3487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A70B51667E1D7004D3487 /* main.m in Sources */,
+				818A70BC1667E1D7004D3487 /* OSDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		818A70B11667E1D7004D3487 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818A70B21667E1D7004D3487 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		818A70B71667E1D7004D3487 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818A70B81667E1D7004D3487 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		818A70BD1667E1D7004D3487 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818A70BE1667E1D7004D3487 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		818A70C01667E1D7004D3487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		818A70C11667E1D7004D3487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		818A70C31667E1D7004D3487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mDNS Blister/mDNS Blister-Prefix.pch";
+				INFOPLIST_FILE = "mDNS Blister/mDNS Blister-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		818A70C41667E1D7004D3487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mDNS Blister/mDNS Blister-Prefix.pch";
+				INFOPLIST_FILE = "mDNS Blister/mDNS Blister-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818A709E1667E1D7004D3487 /* Build configuration list for PBXProject "mDNS Blister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818A70C01667E1D7004D3487 /* Debug */,
+				818A70C11667E1D7004D3487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818A70C21667E1D7004D3487 /* Build configuration list for PBXNativeTarget "mDNS Blister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818A70C31667E1D7004D3487 /* Debug */,
+				818A70C41667E1D7004D3487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818A709B1667E1D7004D3487 /* Project object */;
+}
